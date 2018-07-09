@@ -1,0 +1,103 @@
+/* Custom CSS layer over Materialize */
+
+@font-face {
+  font-family: nipey;
+  src: url(https://carlosucd.bitbucket.io/fonts/nipey/nipey-webfont.woff);
+  src: url(https://carlosucd.bitbucket.io/fonts/nipey/nipey-webfont.woff2);
+}
+
+
+/* Forms modifications */
+
+/* label color */
+.input-field label {
+  color: #FFFFFF;
+}
+/* label underline color */
+.input-field input[type=text], .input-field input[type=email], .input-field textarea{
+  border-bottom: 1px solid #fff;
+}
+
+
+nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #3399FF !important;
+}
+
+.nav-wrapper {
+  width: 80%;
+  left: 10%;
+}
+
+.brand-logo {
+  font-family: nipey;
+  color: #3399FF !important;
+}
+
+nav ul a {
+  color: #3399FF !important;
+}
+
+div.landingsection {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #666666;
+  margin-top: 5%;
+}
+
+div.whitesection {
+  background-color: #ffffff;
+  color: #666666;
+}
+
+div.aboutsection {
+  background-color: #3AB8AD;
+  color: #ffffff;
+  height: 100%
+}
+
+div.contactsection {
+  background-color: #5B5F97;
+  color: #fff;
+  height: 100%
+}
+
+div#particles-js {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.custom-btn {
+  width: 90%;
+}
+
+h1#title {
+  font-family: nipey;
+  color: #3399FF !important;
+  font-size: 800%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  h1#title {
+    font-size: 450%;
+  }
+
+  h2#myName {
+
+    font-size: 300%;
+  }
+}
+
+
+h2#name {
+  font-family: nipey;
+  color: #3399FF !important;
+  font-size: 500%;
+}
+
+form#contactForm{
+  display : none;
+}
